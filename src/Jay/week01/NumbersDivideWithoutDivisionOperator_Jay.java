@@ -1,4 +1,4 @@
-package week01;
+package Jay.week01;
 
 public class NumbersDivideWithoutDivisionOperator_Jay {
     public static void divide(int num1, int num2){
@@ -19,7 +19,7 @@ public class NumbersDivideWithoutDivisionOperator_Jay {
 
     public static void main(String[] args) {
 
-        divide(10, 5);
+        divide(-49, 7);
     }
 }
 /*

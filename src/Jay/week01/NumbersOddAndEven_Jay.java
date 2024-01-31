@@ -1,4 +1,4 @@
-package week01;
+package Jay.week01;
 
 public class NumbersOddAndEven_Jay {
 

@@ -1,4 +1,4 @@
-package week01;
+package Jay.week01;
 
 public class NumbersFINRA_Jay {
     public static void finra(){
@@ -6,13 +6,13 @@ public class NumbersFINRA_Jay {
         for (int i = 1; i <= 30 ; i++) {
 
             if(i % 15 == 0){
-                System.out.println("FINRA");
+                System.out.print("FINRA" + " ");
             }else if(i % 3 == 0){
-                System.out.println("FIN");
+                System.out.print("FIN" + " ");
             }else if(i % 5 == 0){
-                System.out.println("RA");
+                System.out.print("RA" + " ");
             }else{
-                System.out.println(i);
+                System.out.print(i + " ");
             }
         }
     }
@@ -31,15 +31,16 @@ public class NumbersFINRA_Jay {
             }
 
             if(str.isEmpty()){
-                System.out.println(i);
+                System.out.print(i + " ");
             }else{
-                System.out.println(str);
+                System.out.print(str + " ");
             }
         }
     }
     public static void main(String[] args) {
 
         finra();
+        System.out.println();
         finra2();
 
     }
