@@ -1,6 +1,9 @@
 package anna.week1;
 
 public class FinRa {
+    public static void main(String[] args) {
+
+
     FINRA();
 }
     public static void FINRA(){
