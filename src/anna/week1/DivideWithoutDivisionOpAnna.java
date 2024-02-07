@@ -1,6 +1,6 @@
 package anna.week1;
 
-public class DivideWithoutDivisionOp {
+public class DivideWithoutDivisionOpAnna {
     public static void main(String[] args) {
 
         System.out.println(DivideWithoutDivisionOperator(49, 7));
