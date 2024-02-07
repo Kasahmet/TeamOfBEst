@@ -1,7 +1,7 @@
 package sule.week2;
 
 public class Divisible {
-    public class Main {
+    public static class Main {
         public static void main(String[] args) {
 
             for (int i = 1; i <= 100; i++) {

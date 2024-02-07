@@ -1,8 +1,8 @@
 package sule.week2;
 
 public class ThirdVariable {
-    public class Main {
-        public void main(String[] args) {
+    public static class Main {
+        public static void main(String[] args) {
             // Initial values
             int a = 10;
             int b = 20;
