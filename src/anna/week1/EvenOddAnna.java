@@ -1,6 +1,6 @@
 package anna.week1;
 
-public class EvenOdd {
+public class EvenOddAnna {
 
     public static void main(String[] args) {
         EvenOdd(5);
