@@ -31,7 +31,7 @@ public class Task2_DivisibleBy3_5_15_Eve {
         System.out.println("Divisible By 3: " + divisibleBy3);
         System.out.println("Divisible By 5: " + divisibleBy5);
 
-
+//dfghjklş
 
     }
 
