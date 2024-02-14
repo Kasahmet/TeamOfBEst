@@ -1,6 +1,6 @@
 package anna.week1;
 
-public class FinRa {
+public class FinRaAnna {
     public static void main(String[] args) {
 
 
