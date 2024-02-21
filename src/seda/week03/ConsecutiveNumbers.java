@@ -2,7 +2,7 @@ package seda.week03;
 
 public class ConsecutiveNumbers {
 
-    public class PrimeChecker {
+    public static class PrimeChecker {
         public static boolean isPrime(int number) {
             if (number <= 1) {
                 return false;
