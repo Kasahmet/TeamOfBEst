@@ -28,6 +28,7 @@ public class PrimeNumber {
             System.out.println(number + " is not a prime number");
         }
     }
+    // I didn't see this week in branch develop
 }
 /*
 Write a method that can check if a number is prime or not
