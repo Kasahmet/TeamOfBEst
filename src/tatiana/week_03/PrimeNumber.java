@@ -21,7 +21,7 @@ public class PrimeNumber {
     }
 
     public static void main(String[] args) {
-        int number = 5;
+        int number = 15;
         if (isPrime(number)) {
             System.out.println(number + " is a prime number");
         } else {
