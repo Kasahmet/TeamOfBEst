@@ -1,5 +1,4 @@
 package eve.week4;
-
 import java.util.Arrays;
 import java.util.TreeSet;
 
@@ -12,7 +11,7 @@ public class Task2_SameLetters_Eve {
      */
 
     // solution 1:
-    public boolean same(String a, String b) {
+    public static boolean same(String a, String b) {
         char[] ch1 = a.toCharArray();
         char[] ch2 = b.toCharArray();
 
@@ -20,7 +19,7 @@ public class Task2_SameLetters_Eve {
         Arrays.sort(ch2);
         String a1 = "", a2 = "";
 
-        for (char each : ch1) {
+      /*  for (char each : ch1) {
             a1 += each;
         }
 
@@ -28,12 +27,14 @@ public class Task2_SameLetters_Eve {
             a2 += each;
         }
 
+
+       */
         return a1.equals(a2);
     }
 
 
     // solution 2
-    public boolean Same(String a, String b) {
+    public static boolean Same(String a, String b) {
         a = new TreeSet<String>(Arrays.asList(a.split(""))).toString();
         b = new TreeSet<String>(Arrays.asList(b.split(""))).toString();
         return a.equals(b);
@@ -62,14 +63,9 @@ public class Task2_SameLetters_Eve {
     }
 
     public static void main(String[] args) {
-        String str1 = "abc";
-        String str2 = "cab";
-
-        if (areAnagrams(str1, str2)) {
-            System.out.println(str1 + " and " + str2 + " are anagrams.");
-        } else {
-            System.out.println(str1 + " and " + str2 + " are not anagrams.");
-        }
+        System.out.println(Same("abc", "abd"));
+        System.out.println(same("abc", "abc"));
+        System.out.println(areAnagrams("abc", "abd"));
     }
 }
 
