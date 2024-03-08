@@ -1,0 +1,18 @@
+
+1️⃣  String_PasswordValidation
+Write a return method that can verify if a password is valid or not.
+-Requirements:
+Password MUST be at least have 6 characters and should not contain space
+PassWord should at least contain one upper-case letter
+PassWord should at least contain one lowercase letter
+Password should at least contain one special character
+Password should at least contain a digit
+-if all requirements above are met, the method returns true, otherwise returns  false
+
+2️⃣  Array_FindMaximum
+Write a method that can find the maximum number from an int Array
+Ex:  int[] arr = {99, 12, 23, 32, 44, 57, 6} ==> 99
+
+3️⃣ String_SumOfAllDigits
+Write a method that can return the sum of the digits in a String
+Ex:  "12 java 5 apple 3"  ==>  20
