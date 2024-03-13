@@ -2,6 +2,7 @@ package eve.week5;
 
 public class Task1_FindUniqueOfAString_Eve {
 
+
     //Write a return method that can find the unique characters from the String
     public static String unique(String str) {
 
