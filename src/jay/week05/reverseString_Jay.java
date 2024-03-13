@@ -1,4 +1,4 @@
-package Jay.week05;
+package jay.week05;
 
 public class reverseString_Jay {
 

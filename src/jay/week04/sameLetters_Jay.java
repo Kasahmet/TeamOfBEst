@@ -1,4 +1,4 @@
-package Jay.week04;
+package jay.week04;
 
 import java.util.*;
 

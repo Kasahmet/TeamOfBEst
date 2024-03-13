@@ -1,4 +1,4 @@
-package Jay.week03;
+package jay.week03;
 
 public class reverseNumber_Jay {
 

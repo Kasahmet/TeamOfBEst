@@ -1,6 +1,4 @@
-package Jay.week03;
-
-import java.util.Scanner;
+package jay.week03;
 
 public class primeNumber_Jay {
 
