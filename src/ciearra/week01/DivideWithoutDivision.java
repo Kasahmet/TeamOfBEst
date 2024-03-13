@@ -1,4 +1,4 @@
-package ciearra.Week01;
+package ciearra.week01;
 
 public class DivideWithoutDivision {
     public static void main(String[] args) {
