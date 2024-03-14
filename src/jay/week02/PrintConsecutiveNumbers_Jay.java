@@ -1,4 +1,4 @@
-package Jay.week02;
+package jay.week02;
 
 public class PrintConsecutiveNumbers_Jay {
 
