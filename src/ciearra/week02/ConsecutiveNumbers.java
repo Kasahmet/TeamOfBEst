@@ -10,7 +10,7 @@ public class ConsecutiveNumbers {
                 if(i%3 == 0){
                     System.out.print("Test");
                 }
-                if(i%5 == 0){
+                if(i%5 == 0) {
                     System.out.print("Coders");
                 }
                 System.out.println();
